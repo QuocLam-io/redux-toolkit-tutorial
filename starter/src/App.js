@@ -10,7 +10,7 @@ function App() {
 
   useEffect(() => {
     dispatch(calculateTotals());
-  }, [cartItems]);
+  }, [cartItems, dispatch]);
 
   return (
     <main>
